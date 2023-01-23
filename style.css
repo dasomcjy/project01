@@ -669,23 +669,56 @@ main .sublogin{
 
 main .sub3-text .title{
   font-size: 20px;
+  color :#453C58;
+  border-left: 2px solid #b95071;
+  padding-left: 20px;
+  margin-bottom: 50px;
 } 
+
+main .sub3-text .text {
+  font-size: 17px;
+  color :#453C58;
+  line-height: 2;
+  word-spacing: 5px;
+}
 
 main .sub3-1 {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  margin-top: 50px;
 }
 
 main .sub3-img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap : 2px;
 }
 
 main .sub3-img img {
   width: 300px;
+
 }
 
+main .sub3img1 img {
+  border-radius: 10px;
+}
 
+main .sub3-12 {
+  margin-left: 50px;
+}
+
+main .sub3-12 .subtitle {
+  margin-left: 50px;
+}
+
+main .sub3-12 .card {
+  font-size: 20px;
+  color: #453C58;
+  border-left: 2px solid #b95071;
+  padding-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
 
 main .subjoin {
   width : 500px;
