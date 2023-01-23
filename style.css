@@ -575,6 +575,15 @@ main .mainsearch {
   text-align: center;
 }
 
+main .sub3page {
+  margin-top: 50px;
+}
+
+main .sub3subtext {
+  text-align: right;
+  margin-top: 20px;
+}
+
 main .sub3img {
   display : grid;
   grid-template-columns: repeat( 5, 1fr);
@@ -656,6 +665,24 @@ main .sub3img {
 main .sublogin{
   display : flex;
   justify-content: center;
+}
+
+main .sub3-text .title{
+  font-size: 20px;
+} 
+
+main .sub3-1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+main .sub3-img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+main .sub3-img img {
+  width: 300px;
 }
 
 
@@ -784,6 +811,90 @@ main .write table .write4 {
 
 main .write table .write4 a:hover {
   color: #F1F1E6;
+}
+
+
+main .sub2content {
+  display : grid;
+  grid-template-columns: 2fr 3fr;
+  margin-top: 50px;
+}
+
+main .sub2content .fixed {
+  height : 30px;
+
+}
+
+main .sub2conleft {
+  text-align: center;
+}
+
+main .sub2conlefttext{
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: left;
+  color: #453C58;
+  border-left: 2px solid #b95071;
+  padding-left: 20px;
+
+}
+
+main .sub2conlefttext2 {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #453C58;
+  text-align: left;
+  word-spacing: 7px;
+  line-height: 2;
+}
+
+
+main .sub2conlefttext2 li{
+  margin-top: 10px;
+}
+
+main .sub2conleft img{
+  border-radius: 10px;
+}
+
+main .bookinfo img{
+  width: 200px;
+  border-radius: 10px;
+}
+
+main .bookinfo{
+  position: fixed;
+  margin-top: 30px;
+}
+
+@media screen and (max-width : 1000px) {
+  .bookinfo {
+    display : none;
+  }
+}
+
+main .sub2conright {
+  margin-top: 50px;
+  text-align: left;
+  display: flex;
+}
+
+main .sub2conright button{
+width: 100px;
+height: 80px;
+margin-left: 10px;
+background-color: #CE9EAD;
+border-style: none;
+border-radius: 10px;
+}
+
+main .commenttxt {
+  color: #453C58;
+  text-align: left;
+}
+
+main .commenttxt div{
+margin-top: 10px;
 }
 
 footer .foot {
