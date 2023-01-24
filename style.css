@@ -930,6 +930,154 @@ main .commenttxt div{
 margin-top: 10px;
 }
 
+main .fwrite {
+  margin-top: 50px;
+  display : flex;
+  flex-direction: column;
+  align-items: center;
+  color :#453C58;
+}
+
+main .fwrite table .fwritetitle {
+  font-size: 20px;
+  color :#453C58;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main .fwrite table .click {
+  text-align: right;
+  padding-bottom: 20px;
+}
+
+main .fwrite table img {
+  margin-bottom: 30px;
+}
+
+main .fwrite .fwr {
+  display: flex;
+  text-align: center;
+}
+
+main .fwrite .write3 {
+  width: 600px;
+  height: 50px;
+  margin-top: 50px;
+}
+
+main .fwrite .fwr button{
+width : 60px;
+height: 50px;
+margin-top: 50px;
+background-color: #CE9EAD;
+border-style: none;
+margin-left: 10px;
+}
+
+main .fwrite .write4 {
+  text-align: left;
+  font-size: 15px;
+  color: #453C58;
+  margin-top: 20px;
+  width:670px
+}
+
+main .slideshow{
+  width : 1400px;
+  height : 400px;
+  position : relative;
+  overflow : hidden ;
+  margin-top: 50px;
+}
+
+main .slides li:first-child{
+  margin-left: 50px;
+}
+
+main .slides li:nth-child(4){
+  margin-left: 50px;
+}
+
+main .slides img {
+  width : 400px;
+  height : 400px;
+}
+
+main .slides {
+  position : absolute;
+  left : 0;
+  top : 0 ;
+  width : 2000px;
+  transition : left 0.5s ease-out;
+  display: flex;
+  gap: 50px;
+}
+
+main .maincontent3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main .bookcon1 {
+  color :#453C58;
+  word-spacing: 5px;
+  margin-top: 30px;
+  margin-right: 50px;
+  line-height: 2;
+}
+
+main .bookcon1 li{
+  margin-top: 20px;
+}
+
+main .bookcon3 {
+  color :#453C58;
+  word-spacing: 5px;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+main .bookcon3 li{
+  margin-top: 20px;
+}
+
+main .bookcon3 .title{
+  font-size: 20px;
+}
+
+.controller span{
+  position:absolute;
+  background-color: transparent;
+  color: black;
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 50%;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.controller span:hover{
+  background-color: #ce9ead85;
+}
+
+.prev{
+  left: 10px;
+}
+
+.prev:hover{
+  transform: translateX(-10px);
+}
+
+.next{
+  right: 10px;
+}
+
+.next:hover{
+  transform: translateX(10px);
+}
+
+
 footer .foot {
   margin-top: 50px;
   display: flex;
